@@ -1,4 +1,4 @@
-#include "behaviours.dtsi"
+#include "tippy_tapper.dtsi"
 
 &default_transform { 
     col-offset = <6>;
