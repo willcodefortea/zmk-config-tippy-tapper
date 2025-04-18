@@ -1,0 +1,16 @@
+if SHIELD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "TippyTapper"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_LEFT || SHIELD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
