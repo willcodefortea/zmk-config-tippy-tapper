@@ -1,0 +1,5 @@
+config SHIELD_LEFT
+    def_bool $(shields_list_contains,tippy_tapper_left)
+
+config SHIELD_RIGHT
+    def_bool $(shields_list_contains,tippy_tapper_right)
