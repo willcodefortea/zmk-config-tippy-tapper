@@ -85,11 +85,11 @@
 
         Right {
             bindings = <
-&trans  &trans             &trans    &trans           &trans                 &trans         &trans     &trans          &trans     &trans     &trans        &trans
-&trans  &kp EXCL           &kp AT    &kp HASH         &kp DLLR               &kp PERCENT    &kp CARET  &kp AMPS        &kp ASTRK  &kp GRAVE  &kp TILDE     &trans
-&trans  &kp DOUBLE_QUOTES  &kp LBKT  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &trans         &kp FSLH   &kp MINUS       &kp EQUAL  &kp COLON  &kp SEMI      &trans
-&trans  &kp SINGLE_QUOTE   &kp RBKT  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &trans         &kp BSLH   &kp UNDERSCORE  &kp PLUS   &kp PIPE   &kp QUESTION  &trans
-        &trans             &trans    &trans           &trans                 &trans         &trans     &trans          &trans     &trans     &trans
+&trans  &trans             &trans    &trans           &trans                 &trans             &trans     &trans          &trans     &trans     &trans        &trans
+&trans  &kp EXCL           &kp AT    &kp HASH         &kp DLLR               &kp PERCENT        &kp CARET  &kp AMPS        &kp ASTRK  &kp GRAVE  &kp TILDE     &trans
+&trans  &kp DOUBLE_QUOTES  &kp LBKT  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp NON_US_HASH    &kp FSLH   &kp MINUS       &kp EQUAL  &kp COLON  &kp SEMI      &trans
+&trans  &kp SINGLE_QUOTE   &kp RBKT  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &trans             &kp BSLH   &kp UNDERSCORE  &kp PLUS   &kp PIPE   &kp QUESTION  &trans
+        &trans             &trans    &trans           &trans                 &trans             &trans     &trans          &trans     &trans     &trans
             >;
         };
 
@@ -105,11 +105,11 @@
 
         Tri {
             bindings = <
-&trans  &trans  &trans  &trans  &trans             &trans          &trans        &trans       &trans             &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &kp LG(PLUS)       &bt BT_CLR      &bt BT_SEL 0  &kp C_NEXT   &kp C_VOLUME_UP    &kp LG(EQUAL)  &trans  &trans
-&trans  &trans  &trans  &trans  &kp LG(N0)         &bt BT_SEL 1    &bt BT_SEL 2  &kp C_PAUSE  &kp C_MUTE         &kp LG(N0)     &trans  &trans
-&trans  &trans  &trans  &trans  &kp LG(LS(MINUS))  &tog 1          &bt BT_SEL 4  &kp C_PREV   &kp C_VOLUME_DOWN  &kp LG(MINUS)  &trans  &trans
-        &trans  &trans  &trans  &trans             &trans          &trans        &trans       &trans             &trans         &trans
+&trans  &trans  &trans  &trans  &trans             &trans          &trans        &trans            &trans             &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &kp LG(PLUS)       &bt BT_CLR      &bt BT_SEL 0  &kp C_NEXT        &kp C_VOLUME_UP    &kp LG(EQUAL)  &trans  &trans
+&trans  &trans  &trans  &trans  &kp LG(N0)         &bt BT_SEL 1    &bt BT_SEL 2  &kp C_PLAY_PAUSE  &kp C_MUTE         &kp LG(N0)     &trans  &trans
+&trans  &trans  &trans  &trans  &kp LG(LS(MINUS))  &tog 1          &bt BT_SEL 4  &kp C_PREV        &kp C_VOLUME_DOWN  &kp LG(MINUS)  &trans  &trans
+        &trans  &trans  &trans  &trans             &trans          &trans        &trans            &trans             &trans         &trans
             >;
         };
     };
