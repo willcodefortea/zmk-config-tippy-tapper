@@ -25,3 +25,5 @@ include:
     shield: tippy_tapper_right nice_view_adapter nice_view
   - board: nice_nano
     shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: tippy_tapper_dongle prospector_adapter
