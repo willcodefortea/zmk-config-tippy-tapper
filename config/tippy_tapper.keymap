@@ -79,9 +79,9 @@
             bindings = <
 &trans  &trans            &trans  &trans         &trans  &trans    &trans  &trans  &trans         &trans  &trans                     &trans
 &trans  &trans            &trans  &trans         &trans  &trans    &trans  &trans  &trans         &trans  &trans                     &trans
-&trans  &hrml A LEFT_GUI  &trans  &hrml D LCTRL  &trans  &trans    &trans  &trans  &hrmr K RCTRL  &trans  &hrmr SEMICOLON RIGHT_GUI  &trans
+&trans  &hrml LEFT_GUI A  &trans  &hrml LCTRL D  &trans  &trans    &trans  &trans  &hrmr RCTRL K  &trans  &hrmr RIGHT_GUI SEMICOLON  &trans
 &trans  &trans            &trans  &trans         &trans  &trans    &trans  &trans  &trans         &trans  &trans                     &trans
-        &trans            &trans  &trans         &trans  &trans    &trans  &trans  &trans         &trans  &trans
+        &trans            &trans  &trans         &trans  &lt 5 TAB    &trans  &trans  &trans         &trans  &trans
             >;
         };
 
@@ -117,6 +117,17 @@
         &trans  &trans  &trans  &trans             &trans          &trans        &trans            &trans             &trans            &trans
             >;
         };
+
+        WIN_Left {
+			display-name = "WLeft";
+            bindings = <
+&trans  &trans            &trans        &trans        &trans          &trans         &trans    &trans         &trans       &trans     &trans  &trans
+&trans  &kp N1            &kp N2        &kp N3        &kp N4          &kp N5         &kp N6    &kp N7         &kp N8       &kp N9     &kp N0  &trans
+&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &caps_word     &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
+&trans  &trans            &kp LC(X)     &kp LC(C)     &kp LC(V)       &kp LC(TAB)    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
+        &trans            &trans        &trans        &trans          &trans         &trans    &trans         &trans       &trans     &trans
+            >;
+        };
     };
 
     conditional_layers {
@@ -124,6 +135,11 @@
 
         Tri {
             if-layers = <2 3>;
+            then-layer = <4>;
+        };
+
+        WIN_Tri {
+            if-layers = <2 5>;
             then-layer = <4>;
         };
     };
