@@ -21,7 +21,7 @@
 include:
   - board: nice_nano
     shield: tippy_tapper_left 
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
     artifact-name: tipper_tapper_left
   - board: nice_nano
     shield: tippy_tapper_right
