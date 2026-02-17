@@ -29,9 +29,3 @@ include:
     artifact-name: tipper_tapper_right
   - board: nice_nano
     shield: settings_reset
-  - board: xiao_ble
-    shield: tippy_tapper_dongle dongle_screen
-    artifact-name: dongle-screen
-  - board: xiao_ble
-    shield: settings_reset
-    artifact-name: dongle-settings-reset
